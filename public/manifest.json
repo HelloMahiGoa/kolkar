@@ -1,0 +1,21 @@
+{
+  "name": "Kolkar Taxi - Taxi Service in Goa",
+  "short_name": "Kolkar Taxi",
+  "description": "Reliable taxi service in Goa with 30+ vehicles. Book airport transfers, city tours, and long-distance rides.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00bcd4",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
