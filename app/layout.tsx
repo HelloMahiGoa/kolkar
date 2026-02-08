@@ -70,11 +70,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: '/favicon.ico' },
-      { url: '/icon.png', type: 'image/png' },
+      { url: '/images/favicon.png', type: 'image/png' },
     ],
     apple: [
-      { url: '/apple-icon.png' },
+      { url: '/images/favicon.png', type: 'image/png' },
     ],
   },
   manifest: '/manifest.json',
@@ -88,9 +87,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="overflow-x-hidden">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icon.png" type="image/png" sizes="32x32" />
-        <link rel="apple-touch-icon" href="/icon.png" />
+        <link rel="icon" href="/images/favicon.png" type="image/png" sizes="any" />
+        <link rel="apple-touch-icon" href="/images/favicon.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#00bcd4" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
