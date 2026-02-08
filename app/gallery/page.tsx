@@ -3,7 +3,7 @@ import { GALLERY_IMAGES } from '@/lib/constants';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Gallery - Kolkar Taxi',
+  title: 'Gallery - Aarav Cabs',
   description: 'View our fleet of taxis in Goa. Hatchback, Sedan, and SUV vehicles.',
 };
 

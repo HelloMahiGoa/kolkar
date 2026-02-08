@@ -4,7 +4,7 @@ import { Car, Users, CheckCircle } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Our Fleet - Kolkar Taxi',
+  title: 'Our Fleet - Aarav Cabs',
   description: 'Explore our fleet of 30+ vehicles including Hatchback, Sedan, and SUV options.',
 };
 

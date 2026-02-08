@@ -79,7 +79,7 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
             <div className="relative w-full h-full max-h-[90vh]">
               <Image
                 src={selectedImage}
-                alt={images.find(img => img.src === selectedImage)?.alt || 'Kolkar Taxi Gallery - Taxi vehicle image'}
+                alt={images.find(img => img.src === selectedImage)?.alt || 'Aarav Cabs Gallery - Taxi vehicle image'}
                 fill
                 className="object-contain"
                 sizes="90vw"

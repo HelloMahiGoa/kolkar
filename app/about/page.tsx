@@ -4,8 +4,8 @@ import { FLEET_TYPES } from '@/lib/constants';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About Us - Kolkar Taxi',
-  description: 'Learn about Kolkar Taxi, your trusted taxi service in Goa with 30+ vehicles.',
+  title: 'About Us - Aarav Cabs',
+  description: 'Learn about Aarav Cabs, your trusted taxi service in Goa with 30+ vehicles.',
 };
 
 export default function About() {
@@ -15,7 +15,7 @@ export default function About() {
       <section className="bg-gradient-to-br from-primary-600 to-accent-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4">
-            About Kolkar Taxi
+            About Aarav Cabs
           </h1>
           <p className="text-xl text-primary-100 max-w-3xl mx-auto">
             Your trusted partner for reliable and comfortable transportation in beautiful Goa
@@ -33,7 +33,7 @@ export default function About() {
               </h2>
               <div className="space-y-4 text-gray-700 text-lg">
                 <p>
-                  Kolkar Taxi was founded with a simple mission: to provide reliable, comfortable, and affordable taxi services to residents and visitors of Goa. We understand that transportation is a crucial part of your journey, whether you're exploring the beautiful beaches, visiting historic sites, or traveling for business.
+                  Aarav Cabs was founded with a simple mission: to provide reliable, comfortable, and affordable taxi services to residents and visitors of Goa. We understand that transportation is a crucial part of your journey, whether you're exploring the beautiful beaches, visiting historic sites, or traveling for business.
                 </p>
                 <p>
                   With our fleet of 30+ well-maintained vehicles, including Hatchbacks, Sedans, and SUVs, we cater to all your transportation needs. Our experienced drivers know Goa like the back of their hand, ensuring you reach your destination safely and on time.
@@ -92,7 +92,7 @@ export default function About() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
-              Why Goa? Why Kolkar Taxi?
+              Why Goa? Why Aarav Cabs?
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               Goa is a paradise for travelers, and we're here to make your journey seamless
@@ -116,7 +116,7 @@ export default function About() {
             <div className="bg-white rounded-xl p-8 shadow-lg">
               <h3 className="text-2xl font-heading font-bold text-gray-900 mb-4">Why Choose Us</h3>
               <p className="text-gray-700 mb-4">
-                At Kolkar Taxi, we understand the unique transportation needs of Goa. Our local expertise, combined with our commitment to service excellence, makes us the perfect choice for your travel needs.
+                At Aarav Cabs, we understand the unique transportation needs of Goa. Our local expertise, combined with our commitment to service excellence, makes us the perfect choice for your travel needs.
               </p>
               <ul className="space-y-2">
                 {['Local expertise', '24/7 availability', 'Competitive prices', 'Well-maintained vehicles', 'Professional drivers'].map((item, index) => (
@@ -161,7 +161,7 @@ export default function About() {
             Ready to Experience the Best?
           </h2>
           <p className="text-xl mb-8 text-primary-100">
-            Book your ride with Kolkar Taxi today and experience reliable, comfortable transportation in Goa.
+            Book your ride with Aarav Cabs today and experience reliable, comfortable transportation in Goa.
           </p>
           <a
             href="/contact"

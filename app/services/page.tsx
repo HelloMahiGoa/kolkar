@@ -5,7 +5,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Our Services - Kolkar Taxi',
+  title: 'Our Services - Aarav Cabs',
   description: 'Comprehensive taxi services in Goa including airport transfers, city tours, and more.',
 };
 

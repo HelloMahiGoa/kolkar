@@ -35,7 +35,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 group">
             <div className="bg-gradient-to-r from-primary-600 to-accent-500 text-white px-5 py-2.5 rounded-xl font-heading font-bold text-xl shadow-lg group-hover:shadow-xl transition-all transform group-hover:scale-105">
-              Kolkar Taxi
+              Aarav Cabs
             </div>
           </Link>
 

@@ -112,7 +112,7 @@ export const TESTIMONIALS = [
   {
     name: 'Rajesh Kumar',
     location: 'Mumbai',
-    text: 'Excellent service! The driver was punctual and very professional. Highly recommend Kolkar Taxi for Goa trips.',
+    text: 'Excellent service! The driver was punctual and very professional. Highly recommend Aarav Cabs for Goa trips.',
     rating: 5,
   },
   {

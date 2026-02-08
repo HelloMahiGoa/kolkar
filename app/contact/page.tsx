@@ -4,8 +4,8 @@ import { Phone, Mail, MapPin, Clock } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact Us - Kolkar Taxi',
-  description: 'Contact Kolkar Taxi for bookings and inquiries. Call us or use our WhatsApp booking form.',
+  title: 'Contact Us - Aarav Cabs',
+  description: 'Contact Aarav Cabs for bookings and inquiries. Call us or use our WhatsApp booking form.',
 };
 
 export default function Contact() {

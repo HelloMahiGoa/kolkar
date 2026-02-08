@@ -1,6 +1,6 @@
 import { ImageResponse } from 'next/og';
 
-export const alt = 'Kolkar Taxi - Taxi Service in Goa';
+export const alt = 'Aarav Cabs - Taxi Service in Goa';
 export const size = {
   width: 1200,
   height: 630,
@@ -26,7 +26,7 @@ export default async function Image() {
         }}
       >
         <div style={{ fontSize: 80, marginBottom: 20 }}>🚕</div>
-        <div>Kolkar Taxi</div>
+        <div>Aarav Cabs</div>
         <div style={{ fontSize: 40, marginTop: 20, opacity: 0.9 }}>
           Best Taxi Service in Goa
         </div>

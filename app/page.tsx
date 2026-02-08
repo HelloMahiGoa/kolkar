@@ -14,8 +14,8 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Kolkar Taxi Goa - Best Taxi Service in Goa | Airport Transfer & City Tours',
-  description: 'Kolkar Taxi offers reliable taxi services in Goa with 30+ vehicles (Hatchback, Sedan, SUV). Book airport transfers, city tours, and long-distance rides. Available 24/7. Call 7522928277 or 9822164507.',
+  title: 'Aarav Cabs Goa - Best Taxi Service in Goa | Airport Transfer & City Tours',
+  description: 'Aarav Cabs offers reliable taxi services in Goa with 30+ vehicles (Hatchback, Sedan, SUV). Book airport transfers, city tours, and long-distance rides. Available 24/7. Call 7522928277 or 9822164507.',
   keywords: [
     'taxi Goa',
     'taxi service Goa',
@@ -26,30 +26,30 @@ export const metadata: Metadata = {
     'Goa taxi service',
     'taxi in Goa',
     'Goa cab service',
-    'Kolkar Taxi',
+    'Aarav Cabs',
     'Goa car rental',
     'Goa sightseeing taxi',
     'Goa city tour',
     'Goa taxi rates',
     'best taxi Goa',
   ],
-  authors: [{ name: 'Kolkar Taxi' }],
-  creator: 'Kolkar Taxi',
-  publisher: 'Kolkar Taxi',
+  authors: [{ name: 'Aarav Cabs' }],
+  creator: 'Aarav Cabs',
+  publisher: 'Aarav Cabs',
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://kolkartaxi.com'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://aaravcabs.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Kolkar Taxi Goa - Best Taxi Service in Goa | Airport Transfer & City Tours',
+    title: 'Aarav Cabs Goa - Best Taxi Service in Goa | Airport Transfer & City Tours',
     description: 'Reliable taxi service in Goa with 30+ vehicles. Book airport transfers, city tours, and long-distance rides. Available 24/7.',
     url: '/',
-    siteName: 'Kolkar Taxi',
+    siteName: 'Aarav Cabs',
     locale: 'en_IN',
     type: 'website',
     images: [
@@ -57,13 +57,13 @@ export const metadata: Metadata = {
         url: '/images/goa-hero.jpg',
         width: 1200,
         height: 630,
-        alt: 'Kolkar Taxi - Taxi Service in Goa',
+        alt: 'Aarav Cabs - Taxi Service in Goa',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kolkar Taxi Goa - Best Taxi Service in Goa',
+    title: 'Aarav Cabs Goa - Best Taxi Service in Goa',
     description: 'Reliable taxi service in Goa with 30+ vehicles. Book airport transfers, city tours, and long-distance rides.',
     images: ['/images/goa-hero.jpg'],
   },
@@ -89,10 +89,10 @@ export default function Home() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: 'Kolkar Taxi',
+    name: 'Aarav Cabs',
     image: '/images/goa-hero.jpg',
-    '@id': 'https://kolkartaxi.com',
-    url: 'https://kolkartaxi.com',
+    '@id': 'https://aaravcabs.com',
+    url: 'https://aaravcabs.com',
     telephone: ['+917522928277', '+919822164507'],
     priceRange: '₹₹',
     address: {
@@ -136,7 +136,7 @@ export default function Home() {
     serviceType: 'Taxi Service',
     provider: {
       '@type': 'LocalBusiness',
-      name: 'Kolkar Taxi',
+      name: 'Aarav Cabs',
     },
     areaServed: {
       '@type': 'State',
@@ -165,7 +165,7 @@ export default function Home() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://kolkartaxi.com',
+        item: 'https://aaravcabs.com',
       },
     ],
   };
@@ -173,9 +173,9 @@ export default function Home() {
   const organizationJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Kolkar Taxi',
-    url: 'https://kolkartaxi.com',
-    logo: 'https://kolkartaxi.com/images/logo.png',
+    name: 'Aarav Cabs',
+    url: 'https://aaravcabs.com',
+    logo: 'https://aaravcabs.com/images/logo.png',
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '+917522928277',
@@ -318,7 +318,7 @@ export default function Home() {
                 What Our Customers Say
               </h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                Join thousands of satisfied customers who trust Kolkar Taxi
+                Join thousands of satisfied customers who trust Aarav Cabs
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -372,7 +372,7 @@ export default function Home() {
               Ready to Experience the Best?
             </h2>
             <p className="text-xl md:text-2xl mb-10 text-primary-100 max-w-2xl mx-auto">
-              Book your ride today and discover why thousands of customers choose Kolkar Taxi
+              Book your ride today and discover why thousands of customers choose Aarav Cabs
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

@@ -1,6 +1,6 @@
-# Kolkar Taxi Website
+# Aarav Cabs Website
 
-A modern, responsive Next.js website for Kolkar Taxi - your trusted taxi service in Goa.
+A modern, responsive Next.js website for Aarav Cabs - your trusted taxi service in Goa.
 
 ## Features
 
@@ -42,7 +42,7 @@ npm start
 ## Project Structure
 
 ```
-kolkar/
+aarav-cabs/
 ├── app/                    # Next.js App Router pages
 │   ├── layout.tsx         # Root layout
 │   ├── page.tsx           # Homepage

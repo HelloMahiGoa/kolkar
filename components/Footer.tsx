@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <h3 className="text-2xl font-heading font-bold mb-4 bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent">
-              Kolkar Taxi
+              Aarav Cabs
             </h3>
             <p className="text-gray-400 mb-4">
               Your trusted taxi service in Goa. We provide reliable, comfortable, and safe transportation with our fleet of 30+ vehicles.
@@ -83,7 +83,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Kolkar Taxi. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Aarav Cabs. All rights reserved.</p>
         </div>
       </div>
     </footer>

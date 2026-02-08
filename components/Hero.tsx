@@ -76,7 +76,7 @@ export default function Hero() {
                   <span>Call Now</span>
                 </a>
                 <a
-                  href={`https://wa.me/91${PHONE_NUMBERS.secondary}?text=${encodeURIComponent("Hi, I'd like to book a taxi with Kolkar Taxi. Please help me with the booking.")}`}
+                  href={`https://wa.me/91${PHONE_NUMBERS.secondary}?text=${encodeURIComponent("Hi, I'd like to book a taxi with Aarav Cabs. Please help me with the booking.")}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-whatsapp text-white px-6 py-4 rounded-xl font-bold text-lg hover:bg-[#20ba5a] transition-all transform hover:scale-105 flex items-center justify-center space-x-2 shadow-2xl"

@@ -12,10 +12,10 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: {
-    default: 'Kolkar Taxi Goa - Best Taxi Service in Goa | Airport Transfer & City Tours',
-    template: '%s | Kolkar Taxi',
+    default: 'Aarav Cabs Goa - Best Taxi Service in Goa | Airport Transfer & City Tours',
+    template: '%s | Aarav Cabs',
   },
-  description: 'Kolkar Taxi offers reliable taxi services in Goa with 30+ vehicles (Hatchback, Sedan, SUV). Book airport transfers, city tours, and long-distance rides. Available 24/7.',
+  description: 'Aarav Cabs offers reliable taxi services in Goa with 30+ vehicles (Hatchback, Sedan, SUV). Book airport transfers, city tours, and long-distance rides. Available 24/7.',
   keywords: [
     'taxi Goa',
     'taxi service Goa',
@@ -26,12 +26,12 @@ export const metadata: Metadata = {
     'Goa taxi service',
     'taxi in Goa',
     'Goa cab service',
-    'Kolkar Taxi',
+    'Aarav Cabs',
   ],
-  authors: [{ name: 'Kolkar Taxi' }],
-  creator: 'Kolkar Taxi',
-  publisher: 'Kolkar Taxi',
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://kolkartaxi.com'),
+  authors: [{ name: 'Aarav Cabs' }],
+  creator: 'Aarav Cabs',
+  publisher: 'Aarav Cabs',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://aaravcabs.com'),
   alternates: {
     canonical: '/',
   },
@@ -39,21 +39,21 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     url: '/',
-    siteName: 'Kolkar Taxi',
-    title: 'Kolkar Taxi Goa - Best Taxi Service in Goa',
+    siteName: 'Aarav Cabs',
+    title: 'Aarav Cabs Goa - Best Taxi Service in Goa',
     description: 'Reliable taxi service in Goa with 30+ vehicles. Book airport transfers, city tours, and long-distance rides.',
     images: [
       {
         url: '/images/goa-hero.jpg',
         width: 1200,
         height: 630,
-        alt: 'Kolkar Taxi - Taxi Service in Goa',
+        alt: 'Aarav Cabs - Taxi Service in Goa',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Kolkar Taxi Goa - Best Taxi Service in Goa',
+    title: 'Aarav Cabs Goa - Best Taxi Service in Goa',
     description: 'Reliable taxi service in Goa with 30+ vehicles.',
     images: ['/images/goa-hero.jpg'],
   },
@@ -106,7 +106,7 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="Kolkar Taxi" />
+        <meta name="apple-mobile-web-app-title" content="Aarav Cabs" />
         <Script
           src={`https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&libraries=places`}
           strategy="lazyOnload"

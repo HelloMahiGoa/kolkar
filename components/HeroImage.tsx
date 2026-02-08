@@ -6,7 +6,7 @@ export default function HeroImage() {
       <div className="absolute inset-0 rounded-3xl overflow-hidden">
         <Image
           src="/images/goa-hero.jpg"
-          alt="Kolkar Taxi - Professional taxi service in Goa with modern vehicles"
+          alt="Aarav Cabs - Professional taxi service in Goa with modern vehicles"
           fill
           className="object-cover"
           priority

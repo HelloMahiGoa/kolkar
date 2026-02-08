@@ -5,7 +5,7 @@ import { PHONE_NUMBERS } from '@/lib/constants';
 
 export default function WhatsAppFloat() {
   const handleWhatsAppClick = () => {
-    const message = `Hi, I'd like to book a taxi with Kolkar Taxi. Please help me with the booking.`;
+    const message = `Hi, I'd like to book a taxi with Aarav Cabs. Please help me with the booking.`;
     const whatsappUrl = `https://wa.me/91${PHONE_NUMBERS.primary}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
