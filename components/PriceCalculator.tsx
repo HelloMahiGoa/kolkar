@@ -129,7 +129,7 @@ export default function PriceCalculator() {
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow-2xl p-8 border border-gray-100">
+    <div className="bg-white rounded-2xl shadow-2xl p-4 sm:p-6 md:p-8 border border-gray-100 min-w-0">
       <div className="flex items-center space-x-3 mb-6">
         <div className="bg-gradient-to-br from-primary-500 to-accent-500 p-3 rounded-xl">
           <Calculator className="text-white" size={24} />
@@ -209,9 +209,9 @@ export default function PriceCalculator() {
 
               {/* Fare Breakdown */}
               <div className="border-t border-primary-200 pt-3 space-y-2">
-                <div className="flex justify-between items-center text-sm">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-1 text-sm">
                   <span className="text-gray-600">Base Fare:</span>
-                  <span className="font-semibold text-gray-900">
+                  <span className="font-semibold text-gray-900 break-all sm:break-normal">
                     ₹{PRICING_PER_KM[vehicleType as keyof typeof PRICING_PER_KM]} × {distance.toFixed(1)} km
                   </span>
                 </div>
@@ -237,9 +237,9 @@ export default function PriceCalculator() {
 
               {/* Total Fare */}
               <div className="border-t-2 border-primary-300 pt-3">
-                <div className="flex justify-between items-center">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
                   <span className="text-gray-700 font-semibold text-lg">Total Fare:</span>
-                  <span className="text-4xl font-heading font-bold text-primary-700">
+                  <span className="text-3xl sm:text-4xl font-heading font-bold text-primary-700">
                     ₹{estimatedPrice}
                   </span>
                 </div>

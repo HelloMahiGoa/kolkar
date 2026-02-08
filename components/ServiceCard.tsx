@@ -26,7 +26,7 @@ export default function ServiceCard({ title, description, icon }: ServiceCardPro
         <div className="bg-gradient-to-br from-primary-500 to-accent-500 w-16 h-16 rounded-2xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform shadow-lg" aria-hidden="true">
           {iconMap[icon] || <MapPin size={32} />}
         </div>
-        <h3 className="text-2xl font-heading font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
+        <h3 className="text-xl sm:text-2xl font-heading font-bold text-gray-900 mb-3 group-hover:text-primary-600 transition-colors">
           {title}
         </h3>
         <p className="text-gray-600 mb-6 leading-relaxed">{description}</p>

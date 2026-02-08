@@ -8,7 +8,7 @@ import HeroImage from './HeroImage';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[90vh] flex items-center bg-gradient-to-br from-primary-600 via-primary-700 to-accent-600 text-white overflow-hidden">
+    <section className="relative min-h-[85vh] sm:min-h-[90vh] flex items-center bg-gradient-to-br from-primary-600 via-primary-700 to-accent-600 text-white overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         {/* Floating circles */}
@@ -23,17 +23,17 @@ export default function Hero() {
         }}></div>
       </div>
 
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 w-full min-w-0">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-8">
             {/* Badge */}
-            <div className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full border border-white/30">
-              <Sparkles size={16} />
-              <span className="text-sm font-semibold">Goa's Most Trusted Taxi Service</span>
+            <div className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-sm px-3 py-2 sm:px-4 rounded-full border border-white/30 max-w-full">
+              <Sparkles size={16} className="flex-shrink-0" />
+              <span className="text-xs sm:text-sm font-semibold">Goa&apos;s Most Trusted Taxi Service</span>
             </div>
 
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-bold leading-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold leading-tight">
               Your Journey,
               <br />
               <span className="bg-gradient-to-r from-accent-300 to-yellow-300 bg-clip-text text-transparent">
@@ -41,7 +41,7 @@ export default function Hero() {
               </span>
             </h1>
 
-            <p className="text-xl md:text-2xl text-primary-100 leading-relaxed max-w-2xl">
+            <p className="text-base sm:text-xl md:text-2xl text-primary-100 leading-relaxed max-w-2xl">
               Experience premium taxi service in Goa with our fleet of 30+ vehicles. 
               From airport transfers to city tours, we make every ride comfortable and memorable.
             </p>
@@ -88,18 +88,18 @@ export default function Hero() {
             </div>
 
             {/* Quick Stats */}
-            <div className="grid grid-cols-3 gap-4 pt-8 border-t border-white/20">
+            <div className="grid grid-cols-3 gap-2 sm:gap-4 pt-6 sm:pt-8 border-t border-white/20">
               <div>
-                <div className="text-3xl font-bold">30+</div>
-                <div className="text-sm text-primary-200">Vehicles</div>
+                <div className="text-2xl sm:text-3xl font-bold">30+</div>
+                <div className="text-xs sm:text-sm text-primary-200">Vehicles</div>
               </div>
               <div>
-                <div className="text-3xl font-bold">5000+</div>
-                <div className="text-sm text-primary-200">Customers</div>
+                <div className="text-2xl sm:text-3xl font-bold">5000+</div>
+                <div className="text-xs sm:text-sm text-primary-200">Customers</div>
               </div>
               <div>
-                <div className="text-3xl font-bold">4.8★</div>
-                <div className="text-sm text-primary-200">Rating</div>
+                <div className="text-2xl sm:text-3xl font-bold">4.8★</div>
+                <div className="text-xs sm:text-sm text-primary-200">Rating</div>
               </div>
             </div>
           </div>

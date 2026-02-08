@@ -49,24 +49,24 @@ export default function StatsCounter() {
   }, []);
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
       {stats.map((stat, index) => (
         <div
           key={index}
-          className="text-center p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100"
+          className="text-center p-4 sm:p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-gray-100 min-w-0"
         >
           <div className="flex justify-center mb-4">
             <div className="bg-gradient-to-br from-primary-500 to-accent-500 p-3 rounded-xl text-white">
               {stat.icon}
             </div>
           </div>
-          <div className="text-4xl font-heading font-bold text-gray-900 mb-2">
+          <div className="text-2xl sm:text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-2">
             {typeof counters[index] === 'number' && counters[index] % 1 !== 0
               ? counters[index].toFixed(1)
               : Math.floor(counters[index])}
             {stat.suffix}
           </div>
-          <div className="text-gray-600 font-medium">{stat.label}</div>
+          <div className="text-gray-600 font-medium text-sm sm:text-base">{stat.label}</div>
         </div>
       ))}
     </div>

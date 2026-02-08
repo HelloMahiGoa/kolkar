@@ -219,9 +219,9 @@ export default function Home() {
         </section>
 
         {/* Quick Booking & Price Calculator */}
-        <section className="py-20 bg-gradient-to-br from-gray-50 to-white" aria-label="Book Your Ride">
+        <section className="py-12 sm:py-20 bg-gradient-to-br from-gray-50 to-white" aria-label="Book Your Ride">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid lg:grid-cols-2 gap-8 mb-12">
+            <div className="grid lg:grid-cols-2 gap-6 lg:gap-8 mb-12">
               <BookingForm />
               <PriceCalculator />
             </div>
@@ -239,14 +239,14 @@ export default function Home() {
               <div className="inline-block bg-primary-100 text-primary-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
                 Our Fleet
               </div>
-              <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
                 Choose Your Perfect Ride
               </h2>
-              <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              <p className="text-base sm:text-xl text-gray-600 max-w-2xl mx-auto">
                 From compact hatchbacks to spacious SUVs, we have the perfect vehicle for every journey
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
               {FLEET_TYPES.map((vehicle) => (
                 <FleetCard
                   key={vehicle.type}
@@ -278,14 +278,14 @@ export default function Home() {
               <div className="inline-block bg-accent-100 text-accent-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
                 Our Services
               </div>
-              <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
                 Comprehensive Transportation Solutions
               </h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                 We offer a wide range of services to meet all your travel needs in Goa
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {SERVICES.slice(0, 6).map((service, index) => (
                 <ServiceCard
                   key={index}
@@ -314,18 +314,18 @@ export default function Home() {
               <div className="inline-block bg-yellow-100 text-yellow-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
                 Testimonials
               </div>
-              <h2 className="text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold text-gray-900 mb-4">
                 What Our Customers Say
               </h2>
               <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                 Join thousands of satisfied customers who trust Aarav Cabs
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
               {TESTIMONIALS.map((testimonial, index) => (
                 <article
                   key={index}
-                  className="bg-gradient-to-br from-white to-gray-50 rounded-2xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all transform hover:-translate-y-1"
+                  className="bg-gradient-to-br from-white to-gray-50 rounded-2xl p-6 sm:p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all transform hover:-translate-y-1 min-w-0"
                   itemScope
                   itemType="https://schema.org/Review"
                 >
@@ -368,7 +368,7 @@ export default function Home() {
           </div>
           
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-heading font-bold mb-6">
               Ready to Experience the Best?
             </h2>
             <p className="text-xl md:text-2xl mb-10 text-primary-100 max-w-2xl mx-auto">

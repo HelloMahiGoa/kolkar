@@ -7,10 +7,12 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
   
   body {
     @apply text-gray-900 antialiased;
+    overflow-x: hidden;
   }
 }
 

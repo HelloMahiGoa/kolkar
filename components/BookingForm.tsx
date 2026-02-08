@@ -57,7 +57,7 @@ Vehicle Type: ${formData.vehicleType}`;
   };
 
   return (
-    <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-10 border border-gray-100 relative overflow-hidden">
+    <div className="bg-white rounded-2xl shadow-2xl p-4 sm:p-6 md:p-8 lg:p-10 border border-gray-100 relative overflow-hidden min-w-0">
       {/* Decorative Background */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-primary-100 to-accent-100 rounded-full -mr-32 -mt-32 opacity-50"></div>
       <div className="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-br from-accent-100 to-primary-100 rounded-full -ml-24 -mb-24 opacity-50"></div>
@@ -135,7 +135,7 @@ Vehicle Type: ${formData.vehicleType}`;
             />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             <div>
               <label htmlFor="date" className="block text-sm font-semibold text-gray-700 mb-2">
                 Date *

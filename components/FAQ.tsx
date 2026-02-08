@@ -71,11 +71,11 @@ export default function FAQ() {
             >
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                className="w-full px-6 py-5 text-left flex items-center justify-between hover:bg-gray-50 transition-colors"
+                className="w-full px-4 sm:px-6 py-4 sm:py-5 text-left flex items-center justify-between gap-4 hover:bg-gray-50 transition-colors min-w-0"
                 aria-expanded={openIndex === index}
                 aria-controls={`faq-answer-${index}`}
               >
-                <span className="font-semibold text-gray-900 text-lg" itemProp="name">{faq.question}</span>
+                <span className="font-semibold text-gray-900 text-base sm:text-lg text-left break-words" itemProp="name">{faq.question}</span>
                 {openIndex === index ? (
                   <ChevronUp className="text-primary-600 flex-shrink-0" size={24} aria-hidden="true" />
                 ) : (
@@ -85,7 +85,7 @@ export default function FAQ() {
               {openIndex === index && (
                 <div
                   id={`faq-answer-${index}`}
-                  className="px-6 pb-5 text-gray-700 leading-relaxed"
+                  className="px-4 sm:px-6 pb-5 text-gray-700 leading-relaxed"
                   itemScope
                   itemType="https://schema.org/Answer"
                   itemProp="acceptedAnswer"

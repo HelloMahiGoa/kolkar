@@ -144,23 +144,23 @@ export default function GoogleMapsAutocomplete({
   };
 
   return (
-    <div className="relative">
+    <div className="relative min-w-0">
       <div className="relative">
-        <MapPin className="absolute left-4 top-1/2 transform -translate-y-1/2 text-primary-600" size={20} />
+        <MapPin className="absolute left-3 sm:left-4 top-1/2 transform -translate-y-1/2 text-primary-600 flex-shrink-0" size={18} />
         <input
           ref={inputRef}
           type="text"
           value={value}
           onChange={(e) => onChange(e.target.value)}
           placeholder={placeholder}
-          className="w-full pl-12 pr-20 py-3.5 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all"
+          className="w-full min-w-0 pl-10 sm:pl-12 pr-16 sm:pr-20 py-3 sm:py-3.5 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-all text-base"
         />
         {allowCurrentLocation && (
           <button
             type="button"
             onClick={getCurrentLocation}
             disabled={isLoading}
-            className="absolute right-2 top-1/2 transform -translate-y-1/2 p-2 text-primary-600 hover:bg-primary-50 rounded-lg transition-colors disabled:opacity-50"
+            className="absolute right-1.5 sm:right-2 top-1/2 transform -translate-y-1/2 p-1.5 sm:p-2 text-primary-600 hover:bg-primary-50 rounded-lg transition-colors disabled:opacity-50"
             title="Use current location"
           >
             <Navigation size={20} className={isLoading ? 'animate-spin' : ''} />
