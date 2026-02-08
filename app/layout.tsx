@@ -117,6 +117,26 @@ export default function RootLayout({
             gtag('config', 'AW-17922270851');
           `}
         </Script>
+        <Script id="google-ads-conversion" strategy="afterInteractive">
+          {`
+            function gtag_report_conversion(url) {
+              var callback = function () {
+                if (typeof(url) != 'undefined') {
+                  window.location = url;
+                }
+              };
+              gtag('event', 'conversion', {
+                'send_to': 'AW-17922270851/ddwFCIj-8vQbEIPNgOJC',
+                'value': 1.0,
+                'currency': 'INR',
+                'transaction_id': '',
+                'event_callback': callback
+              });
+              return false;
+            }
+            window.gtag_report_conversion = gtag_report_conversion;
+          `}
+        </Script>
         <Script
           src={`https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&libraries=places`}
           strategy="lazyOnload"
