@@ -106,7 +106,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Aarav Cabs" />
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-17922270851"
+          src="https://www.googletagmanager.com/gtag/js?id=AW-17963170130"
           strategy="afterInteractive"
         />
         <Script id="google-ads" strategy="afterInteractive">
@@ -114,7 +114,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'AW-17922270851');
+            gtag('config', 'AW-17963170130');
           `}
         </Script>
         <Script id="google-ads-conversion" strategy="afterInteractive">
@@ -126,7 +126,7 @@ export default function RootLayout({
                 }
               };
               gtag('event', 'conversion', {
-                'send_to': 'AW-17922270851/ddwFCIj-8vQbEIPNgOJC',
+                'send_to': 'AW-17963170130/ddwFCIj-8vQbEIPNgOJC',
                 'value': 1.0,
                 'currency': 'INR',
                 'transaction_id': '',
