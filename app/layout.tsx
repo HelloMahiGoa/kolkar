@@ -137,6 +137,23 @@ export default function RootLayout({
             window.gtag_report_conversion = gtag_report_conversion;
           `}
         </Script>
+        <Script id="google-ads-page-view-conversion" strategy="afterInteractive">
+          {`
+            function gtag_report_page_view_conversion(url) {
+              var callback = function () {
+                if (typeof(url) != 'undefined') {
+                  window.location = url;
+                }
+              };
+              gtag('event', 'conversion', {
+                'send_to': 'AW-17963170130/qUDmCM_O8oYcENLywPVC',
+                'event_callback': callback
+              });
+              return false;
+            }
+            window.gtag_report_page_view_conversion = gtag_report_page_view_conversion;
+          `}
+        </Script>
         <Script
           src={`https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&libraries=places`}
           strategy="lazyOnload"
